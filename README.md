@@ -1,6 +1,6 @@
 # CSS
 
-Cascading Style Sheets is a styling language which is used for setting the presentation of content and elements of an HTML document.
+Cascading Style Sheets is a styling language which is used for setting the presentation of content and elements within an [HTML](https://github.com/iamdcj/html) document.
 
 It provides engineers with the ability to determine how content will be rendered on a particular type of media, e.g. screen, paper.
 
