@@ -1,20 +1,16 @@
 # External Stylesheets
 
-External stylesheets are stylesheets which are loaded into the document from an external stylesheet file(.css).
+External stylesheets are stylesheets which are loaded into the document from an external file(`.css`). External stylesheets are the most popular form of authored stylesheet; _they provide separation of concerns by abstracting the stylesheet from the markup_.
 
-External stylesheets are linked to in the head of a document, using the <link /> element.
+External stylesheets are linked to in the `<head />` of a document, using the `<link />` element.
 
-### Why use them?
-
-External stylesheets are the most popular form of authored stylesheet; they provide separation of concerns by abstracting the stylesheet from the markup.
-
-Stylesheets block page rendering.
+**Stylesheets block page rendering; the browser will stop building the document when it encounters and external stylesheet reference.**
 
 --
 
 ### Example
 
-This example consists of standard document markup, and within the head element an external stylesheet is loaded via the link element (w/ relationship attribute)
+This example consists of standard document markup, and within the head element an external stylesheet is loaded via the link element:
 
 ```
 <!doctype html>

@@ -1,18 +1,14 @@
 # Internal Stylesheets
 
-Internal stylesheets are styles which are part of the document, and not loaded from an external stylesheet file.
+Internal stylesheets are styles which reside in the `<head />` of an HTML document, and not loaded from an external stylesheet file.
 
-Internal stylesheets are typically set into the document head.
-
-### Why use them?
-
-They are typically used for critical rendering path styles, or inject by third-party libraries.
+Internal stylesheets are not render blocking, making them the place [critical rendering path](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/render-blocking-css) styles.
 
 --
 
 ### Examples
 
-This example consists of standard documemt markup, and within the head element an internal stylesheet is defined
+This example consists of standard document markup, and within the `<head />` element an internal stylesheet is defined:
 
 ```
 <!doctype html>
@@ -20,7 +16,7 @@ This example consists of standard documemt markup, and within the head element a
   <head>
     <style>
       p {
-          color: red;
+        color: red;
       }
     </style>
   </head>
