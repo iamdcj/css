@@ -30,7 +30,7 @@ The following describes at a high-level the different procedures taken by the ca
 
 #### No outright winner
 
-If the cascade mechanism fails to determine the correct declaration due to the it having the same source and level of importance, it will call on the [specificity](../specificity) mechanism to decide the winner.
+If the cascade mechanism fails to determine the correct declaration due to it having the same source and level of importance, it will call on the [specificity](../specificity) mechanism to decide the winner.
 
 ---
 
