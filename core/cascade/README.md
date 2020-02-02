@@ -17,7 +17,7 @@ The following describes at a high-level the different procedures taken by the ca
 - **ASSESS** - The engine will assess all the various stylesheets present when the page is loading.
 - **FILTER** - filter the rulesets from each source that are intended for a given element.
 - **SORT** - sorts the filtered rules based on their importance and their source;
-  - **SOURCE** - what type of stylesheet does the ruleset come from, e.g. is it from: the user-agency, the developer or the user?
+  - **SOURCE** - what type of stylesheet does the ruleset come from, e.g. is it from the user-agent, the developer or the user?
   - **IMPORTANCE** - does the declaration have an `!important` statement present?
 
 ##### **Cascade Priority Order** (highest to lowest);
@@ -28,7 +28,7 @@ The following describes at a high-level the different procedures taken by the ca
 4. User Stylesheet
 5. User-agent Stylesheet
 
-#### No outright winner
+**No outright winner**
 
 If the cascade mechanism fails to determine the correct declaration due to it having the same source and level of importance, it will call on the [specificity](../specificity) mechanism to decide the winner.
 
