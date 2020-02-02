@@ -8,7 +8,7 @@
 
   <style>
     :root {
-      background-color: orangered !important;
+      background-color: beige !important;
     }
   </style>
   <link rel="stylesheet" href="1.css">
@@ -17,15 +17,40 @@
 
 <body>
 
-  <section>
-    <p>The margin comes from the user-agent stylesheet</p>
-    <p class="one-copy">The margin comes from the user-agent stylesheet. The font-size comes from 1.css. </p>
-    <p class="two-color">The margin comes from the user-agent stylesheet. The color comes from 2.css</p>
+  <main>
 
-    <p style="font-size: 22px;">The margin comes from the user-agent stylesheet. The color comes from 2.css. The
-      font-size
-      from inline styles.</p>
-  </section>
+
+    <section>
+      <p>The <code>background-color</code> of the root element is set to beige via an internal stylesheet.</p>
+
+      <code>
+        :root {
+          background-color: beige !important;
+        }
+        </code>
+
+      <p>It is also
+        set in <a href="2.css">2.css</a>
+        <br>
+        <code>
+        :root {
+          background-color: olive;
+        }
+        </code>
+        <br>
+        however the the <code>!important</code> declaration used in the internal
+        stylesheet ensures it trumps any matching declarations from other sources.</p>
+    </section>
+    <section>
+      <p>The margin comes from the user-agent stylesheet</p>
+      <p class="one-copy">The margin comes from the user-agent stylesheet. The font-size comes from 1.css. </p>
+      <p class="two-color">The margin comes from the user-agent stylesheet. The color comes from 2.css</p>
+
+      <p style="font-size: 22px;">The margin comes from the user-agent stylesheet. The color comes from 2.css. The
+        font-size
+        from inline styles.</p>
+    </section>
+  </main>
 
 </body>
 

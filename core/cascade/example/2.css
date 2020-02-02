@@ -1,3 +1,7 @@
 .two-color {
   color: navy;
 }
+
+:root {
+  background-color: olive;
+}
