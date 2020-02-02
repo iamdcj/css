@@ -17,16 +17,13 @@ This example consists of standard documemt markup, and within the head element a
 ```
 <!doctype html>
 <html>
-    <head>
-
-        <style>
-            p {
-                color: red;
-            }
-        </style>
-
-    </head>
-
-    <body>
-    ...
+  <head>
+    <style>
+      p {
+          color: red;
+      }
+    </style>
+  </head>
+  <body>
+  ...
 ```

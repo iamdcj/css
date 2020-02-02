@@ -19,12 +19,10 @@ This example consists of standard document markup, and within the head element a
 ```
 <!doctype html>
 <html>
-    <head>
+  <head>
+    <link href=“/styles.css” rel="stylesheet"> />
+  </head>
 
-        <link href=“/styles.css” rel="stylesheet"> />
-
-    </head>
-
-    <body>
-    ...
+  <body>
+  ...
 ```
