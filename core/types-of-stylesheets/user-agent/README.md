@@ -4,9 +4,7 @@ Browser generate a default stylesheet for webpages which applies a baseline set 
 
 The idea behind default styles is to ensure that webpages have a set of sensible styles, in the absence of a user or authored stylesheet.
 
-—
-
-### Authored Default Stylesheets
+### Fighting the Browers Stylesheets
 
 Most CSS authors do not run with the default styles applied by the browser, instead they opt for one of the following baselines:
 
