@@ -4,13 +4,13 @@ It is an algorithm built into the browser engine which determines which styles s
 
 In most case websites ship with at least one engineered authored stylesheet, however this is not the only stylesheet at play when you load a page;
 
-- **User-Agent Stylesheet** - browser's default baseline styles.
-- **Authored Stylesheets** - engineer authored styles.
-- **User Stylesheet** - styles added by the user, often for accessibility purposes.
+- **[User-agent Stylesheet](../types-of-stylesheets/user-agent)** - browser's default baseline styles.
+- **[Author Stylesheet](../types-of-stylesheets/author)** - engineer authored styles.
+- **[User Stylesheet](../types-of-stylesheets/user)** - styles added by the user, often for accessibility purposes.
 
 The above stylesheets could, and often will, contain conflicting rulesets, as a result the browser needs to determine which declarations should be applied to a given element based on the multiple sources at play.
 
-### **How the cascade does its thing**?
+### **How it works**?
 
 The following describes at a high-level the different procedures taken by the cascade algorithm.
 
@@ -22,11 +22,11 @@ The following describes at a high-level the different procedures taken by the ca
 
 ##### **Cascade Priority Order** (highest to lowest);
 
-1. User Stylesheet `!important`
-2. Author Stylesheet `!important`
-3. Author Stylesheet
-4. User Stylesheet
-5. User-agent Stylesheet
+1. [User Stylesheet](../types-of-stylesheets/user) `!important`
+2. [Author Stylesheet](../types-of-stylesheets/author) `!important`
+3. [Author Stylesheet](../types-of-stylesheets/author)
+4. [User Stylesheet](../types-of-stylesheets/user)
+5. [User-agent Stylesheet](../types-of-stylesheets/user-agent)
 
 **No outright winner**
 
@@ -34,6 +34,7 @@ If the cascade mechanism fails to determine the correct declaration due to it ha
 
 ---
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade
-http://nicolasgallagher.com/css-cascade-specificity-inheritance/
-https://www.w3.org/TR/CSS2/cascade.html
+Reference
+[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Cascade)
+[Nicolas Gallagher](http://nicolasgallagher.com/css-cascade-specificity-inheritance/)
+[Specification](https://www.w3.org/TR/CSS2/cascade.html)
