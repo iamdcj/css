@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Responsive Columns</title>
+  <title>Fixed and Fluid Widths</title>
 
   <style>
     .grid {
@@ -12,7 +12,7 @@
       max-width: 1216px;
       margin: 0 20px;
       grid-column-gap: 1em;
-      grid-template-columns: repeat(3, minmax(240px, 1fr));
+      grid-template-columns: 100px repeat(2, 1fr);
     }
 
     .grid-item {
@@ -30,8 +30,7 @@
 
 <body>
   <main>
-    <p>CSS Grid allows us to set a min and max value for each grid item; min being the narrowest it should render, max
-      being the widest it should render</p>
+    <p>CSS Grid allows us to mix-up fluid-width grid items, with fixed-width items;</p>
     <pre>
       <code>
       .grid {
@@ -39,7 +38,7 @@
         max-width: 1216px;
         margin: 0 20px;
         grid-column-gap: 1em;
-        grid-template-columns: 100px repeat(2, minmax(240px, 1fr));
+        grid-template-columns: 100px repeat(2, 1fr);
       }
       </code>
     </pre>
