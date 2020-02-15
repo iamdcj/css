@@ -29,7 +29,7 @@ All `grid` powereder layouts consist of two main things; a [grid container](./st
 **The above is the starting point of all `grid` powered layouts**, which contains:
 
 - **grid container**
-  - >> **grid-items**.
+  - -> **grid-items**.
 
 ---
 
