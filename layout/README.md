@@ -12,6 +12,6 @@ The one key thing to remember when dealing with layout is that all elements are 
 
 
 ### Layout Types
-[Grid](grid)
-[Flex](flex)
-[Float](float)
+- [Grid](grid)
+- [Flex](flex)
+- [Float](float)
