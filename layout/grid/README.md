@@ -26,10 +26,10 @@ All `grid` powereder layouts consist of two main things; a [grid container](./st
 </section>
 ```
 
-**The above is the starting point of all `grid` powered layouts**, you have:
+**The above is the starting point of all `grid` powered layouts**, which contains:
 
-- a **grid container**
-  - and **grid-items**.
+- **grid container**
+  - > **grid-items**.
 
 ---
 
