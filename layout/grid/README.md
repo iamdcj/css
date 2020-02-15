@@ -16,7 +16,7 @@ If the developer doesn't _explicitly_ configure the grid layout, i.e. doesn't st
 
 ### **Basic Setup & Terminology**
 
-All `grid` powereder layouts consist of two main things; a [grid container](./structure/_container), and at least one [grid items](./structure/item) within the container.
+All `grid` powereder layouts consist of two main things; a [grid container](./structure/_container), and at least one [grid item](./structure/item) within the container.
 
 ```
 <section class="grid-container">
